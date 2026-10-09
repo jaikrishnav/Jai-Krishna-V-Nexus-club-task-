@@ -1,0 +1,22 @@
+# Secrets - never commit API keys
+.env
+server/.env
+
+# Dependencies
+node_modules/
+
+# Build output
+client/dist/
+server/dist/
+
+# Runtime data (SQLite database + uploaded files)
+server/data/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
